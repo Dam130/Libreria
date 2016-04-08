@@ -10,5 +10,9 @@ package Clases;
  * @author dam130
  */
 public class Libreria {
-    String persona;
+    String nombre;
+    
+    public Libreria(String nombre){
+        this.nombre=nombre;
+    }
 }
